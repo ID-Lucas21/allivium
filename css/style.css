@@ -146,3 +146,39 @@ section {
     text-align: left;
     margin: 15px 0 0 0;
 }
+
+.services {
+    background-color: #f9f9f9;
+}
+
+.services .desc{
+    margin: 15px 0 75px 0;
+}
+
+.svc-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    max-width: 80%;
+    margin: 0 0 60px 0;
+}
+
+.services .svc-list .card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 9px #00000029;
+    text-align: left;
+    margin: 15px;
+    width: 300px;
+    padding: 30px 0 30px 30px;
+}
+
+.services .svc-list .card p {
+    margin: 0;
+}
+
+.services .sch-button {
+    color: #ffffff;
+    background-color: #1a1a1a;
+}
