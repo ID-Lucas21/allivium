@@ -62,6 +62,7 @@ header {
     color: #999999;
     font-weight: bold;
     margin: 90px 0 30px 0;
+    text-align: center;
 }
 
 .desc {
@@ -181,4 +182,143 @@ section {
 .services .sch-button {
     color: #ffffff;
     background-color: #1a1a1a;
+}
+
+.team {
+    background-color: #1a1a1a;
+    padding: 0 0 90px 0;
+}
+
+.team .title {
+    color: #ffffff;
+}
+
+.team .sub {
+    color: #999999;
+}
+
+.team .desc {
+    color: #999999;
+}
+
+.team-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.team-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 7.5px;
+}
+
+.team .team-card .title {
+    text-align: left;
+    color: #1a1a1a;
+    margin: 15px auto 15px 15px;
+}
+
+.team .team-card .desc {
+    text-align: left;
+    color: #999999;
+    margin: 0 auto 15px 15px;
+}
+
+.team .team-card img {
+    width: 395px;
+    height: 526px;
+    border-radius: 0 0 10px 10px;
+}
+
+.contact {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+}
+
+.contact .social {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    width: 640px;
+    min-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact .social .social-card {
+    display: flex;
+    flex-direction: column;
+    margin: 15px auto;
+    width: 460px;
+}
+
+.contact .social .social-card a {
+    color: #ffffff;
+    font-size: 40px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact .social .social-card p {
+    margin: 0;
+}
+
+.contact .social .social-card img {
+    height: 76px;
+    width: 76px;
+}
+
+.contact .social .social-card a img {
+    height: 24px;
+    width: 24px;
+}
+
+.contact .form-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.contact .form-contact .title {
+    text-align: left;
+}
+
+.contact .form-contact .sub {
+    text-align: left;
+}
+
+.contact .form-contact .desc {
+    text-align: left;
+    margin: 15px 0 30px 0;
+}
+
+.contact .form-contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact .form-contact form input {
+    border: 1px solid #CCCCCC;
+    border-radius: 10px;
+    width: 640px;
+    padding: 15px;
+    margin: 20px 0;
+}
+
+.contact .form-contact form textarea {
+    border: 1px solid #CCCCCC;
+    border-radius: 10px;
+    width: 640px;
+    padding: 15px;
+    margin: 20px 0;
+}
+
+.contact .form-contact form .sbm-button {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    text-align: center;
 }
