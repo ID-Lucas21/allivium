@@ -9,23 +9,36 @@ body {
 
 nav {
     width: 100%;
+    background-color: #1a1a1a;
+    display: flex;
+    position: fixed;
+    box-shadow: 0px 0px 9px #00000029;
+}
+
+nav .allivium{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    margin: auto auto;
 }
 
 ul {
     padding: 0;
     margin: 0;
     display: flex;
-    flex-direction: row;
-    list-style-type: none;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0;
+    width: 60%;
 }
 
 li {
-    margin: 30px 0;
     text-align: center;
+    padding: 20px 30px;
 }
 
 li a {
-    padding: 30px;
     text-decoration: none;
     color: #ffffff;
     font-weight: bold;
@@ -35,6 +48,8 @@ li a {
     background-color: #ffffff;
     color: #1a1a1a;
     border-radius: 10px;
+    margin: 10px;
+    padding: 15px;
 }
 
 header {
@@ -236,13 +251,13 @@ section {
     background-color: #ffffff;
     display: flex;
     flex-direction: row;
-    padding: 0 0 90px 0;
 }
 
 .contact .social {
     background-color: #1a1a1a;
     color: #ffffff;
     width: 640px;
+    height: 1110px;
     min-width: 500px;
     display: flex;
     flex-direction: column;
@@ -283,6 +298,7 @@ section {
     justify-content: center;
     margin: 0 auto;
     width: 30%;
+    padding: 0 0 90px 0;
 }
 
 .contact .form-contact .title {
@@ -366,9 +382,10 @@ footer div .footer-nav li {
     list-style-type: none;
     text-align: left;
     margin: 7.5px 0;
+    padding: 0;
 }
 
-footer div .footer-nav li a{
+footer div .footer-nav li a {
     font-weight: normal;
     padding: 0;
     margin: 0;

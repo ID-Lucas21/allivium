@@ -11,25 +11,25 @@
 <body>
     <!-- Navigation -->
     <nav>
+        <a class="allivium" href="#header">Allivum</a>
         <ul>
-            <li><a href="#">Allivum</a></li>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Serviços</a></li>
-            <li><a href="#">Profissionais</a></li>
-            <li><a class="agendar" href="#">Agendar</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#services">Serviços</a></li>
+            <li><a href="#team">Profissionais</a></li>
+            <li><a class="agendar" href="#contact">Agendar</a></li>
         </ul>
     </nav>
 
     <!-- Header -->
-    <header>
+    <header id="header">
         <img class="logo" src="images/weeb.png" alt="Allivium">
         <h1 class="title">A vida é melhor com massagem</h1>
         <p class="desc">Você já imaginou o quanto uma massagem pode fazer de você uma nova pessoa? Muitas pessoas buscam diferentes métodos de relaxamento, e sem dúvidas a massagem figura entre os principais.</p>
-        <a class= "sch-button" href="#">Agente seu horário<img src="images/weeb.png" alt="Seta-direita"></a>
+        <a class= "sch-button" href="#contact">Agente seu horário<img src="images/weeb.png" alt="Seta-direita"></a>
     </header>
 
     <!-- About -->
-    <section class="about">
+    <section class="about" id="about">
         <h2 class="sub">SOBRE</h2>
         <h1 class="title">Conheça a Allivium</h1>
         <p class="desc">A Allivium Massoterapia é uma empresa é especializada tratamentos estéticos faciais e corporais. Seu corpo clínico, destaca-se pela atuação, privacidade, respeito e responsabilidade, constante atualização de suas técnicas, conhecimentos e equipamentos.</p>
@@ -83,7 +83,7 @@
     </section>
 
     <!-- Services -->
-    <section class="services">
+    <section class="services" id="services">
         <h2 class="sub">SERVIÇOS</h2>
         <h1 class="title">O que você está procurando?</h1>
         <p class="desc">Nossa equipe está sempre pronta para oferecer o que há de melhor no mercado.</p>
@@ -104,11 +104,11 @@
         
         <h1 class="title">Ficou interessado em algum serviço?</h1>
         <p class="desc">Agende agora mesmo o seu horário conosco!</p>
-        <a class="sch-button"href="#">Agente seu horário<img src="images/weeb.png" alt="Seta-direita"></a>
+        <a class="sch-button"href="#contact">Agente seu horário<img src="images/weeb.png" alt="Seta-direita"></a>
     </section>
 
     <!-- Team -->
-    <section class="team">
+    <section class="team" id="team">
         <h2 class="sub">PROFISSIONAIS</h2>
         <h1 class="title">Nossa equipe de profissionais</h1>
         <p class="desc">Equipe de profissionais altamente treinados e qualificados em tratamentos estéticos faciais e corporais.</p>
@@ -123,27 +123,27 @@
     </section>
 
     <!-- Contact -->
-    <section class="contact">
+    <section class="contact" id="contact">
         <div class="social">
             <!-- WhatsApp -->
             <div class="social-card">
                 <img src="images/weeb.png" alt="Whatsapp">
                 <p>Você pode entrar em contato diretamente via</p>
-                <a href="">WhatsApp<img src="images/weeb.png" alt="Expand"></a>
+                <a href="https://api.whatsapp.com/send?phone=5551995417734&text=Ol%C3%A1%2C%20estou%20entrando%20em%20contato%20atrav%C3%A9s%20do%20site%20Allivium." target="_blank">WhatsApp<img src="images/weeb.png" alt="Expand"></a>
             </div>
 
             <!-- Phone -->
             <div class="social-card">
                 <img src="images/weeb.png" alt="Phone">
                 <p>Se preferir você pode ligar para</p>
-                <a href="">(51) 99541-7734<img src="images/weeb.png" alt="Expand"></a>
+                <a href="tel:+5551995417734" target="_blank">(51) 99541-7734<img src="images/weeb.png" alt="Expand"></a>
             </div>
 
             <!-- Location -->
             <div class="social-card">
                 <img src="images/weeb.png" alt="Map">
                 <p>Rua José Bonifácio 204 (Sala 2), Centro, São Leopoldo - RS</p>
-                <a href="">Google Maps<img src="images/weeb.png" alt="Expand"></a>
+                <a href="https://goo.gl/maps/J71sMAVWru42" target="_blank">Google Maps<img src="images/weeb.png" alt="Expand"></a>
             </div>
 
             <!-- Schedule -->
@@ -189,16 +189,16 @@
         <div>
             <h3>Empresa</h3>
             <ul class="footer-nav">
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Serviços</a></li>
-                <li><a href="#">Profissionais</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#team">Profissionais</a></li>
             </ul>
         </div>
 
         <div>
             <h3>Contato</h3>
             <ul class="footer-nav">
-                <li><a href="#">Agendar</a></li>
+                <li><a href="#contact">Agendar</a></li>
             </ul>
         </div>
     </footer>
