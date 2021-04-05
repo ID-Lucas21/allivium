@@ -163,25 +163,32 @@
             <p class="desc">Agende agora mesmo o seu horário via WhatsApp, Telefone ou Email!</p>
 
             <form action="">
-                <input type="text">
-                <input type="email">
-                <input type="tel">
-                <input type="text">
-                <textarea name="message" id="" cols="30" rows="10"></textarea>
+                <label for="full-name">Nome Completo: </label>
+                <input type="text" id="full-name" name="name" placeholder="Nome completo" />
+
+                <label for="email">Endereço de E-mail: </label>
+                <input type="email" id="email" name="email" placeholder="email@endereco.com"/>
+
+                <label for="tel">Número de Celular: </label>
+                <input type="tel" id="tel" name="phone" placeholder="+00 00000-0000"/>
+
+                <label for="message">Sua mensagem: </label>
+                <textarea id="message" name="message" cols="30" rows="10" placeholder="Insira sua mensagem aqui..."></textarea>
+
                 <input class="sbm-button" type="button" value="Enviar">
             </form>
         </div>
     </section>
 
     <footer>
-        <div>
-            <h1>Alliviun</h1>
-            <p>A Allivium Massoterapia é uma empresa especializada tratamentos faciais e corporais. CNPJ: 32.013.129/0001-20</p>
+        <div class="footer-desc">
+            <h1>Allivium</h1>
+            <p>A Allivium Massoterapia é uma empresa especializada tratamentos faciais e corporais.<br><br>CNPJ: <b>32.013.129/0001-20</b></p>
         </div>
 
         <div>
             <h3>Empresa</h3>
-            <ul>
+            <ul class="footer-nav">
                 <li><a href="#">Sobre</a></li>
                 <li><a href="#">Serviços</a></li>
                 <li><a href="#">Profissionais</a></li>
@@ -190,12 +197,11 @@
 
         <div>
             <h3>Contato</h3>
-            <ul>
+            <ul class="footer-nav">
                 <li><a href="#">Agendar</a></li>
             </ul>
         </div>
-
-        <p>© 2020 Allivium. Todos os direitos reservados</p>
     </footer>
+    <div class="rights"><p>© 2020 Allivium. Todos os direitos reservados</p></div>
 </body>
 </html>
