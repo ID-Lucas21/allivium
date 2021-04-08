@@ -14,12 +14,12 @@ nav {
     position: fixed;
     box-shadow: 0px 0px 9px #00000029;
     justify-content: center;
-    z-index: 1;
+    z-index: 2;
 }
 
 .allivium {
-    text-decoration: none;
-    color: #ffffff;
+    text-decoration: none !important;
+    color: #ffffff !important;
     font-weight: bold !important;
     display: flex;
     flex-direction: row;
@@ -54,29 +54,45 @@ li {
 }
 
 li a {
-    text-decoration: none;
-    color: #ffffff;
+    text-decoration: none !important;
+    color: #ffffff !important;
     font-weight: bold !important;
 }
 
 .agendar {
     background-color: #ffffff;
-    color: #2b2c2b;
+    color: #2b2c2b !important;
     border-radius: 10px;
     padding: 10px 20px;
+}
+
+/* Carousel */
+.carousel {
+    width: 100%;
+    z-index: 0;
+    position: relative;
 }
 
 header {
     display: flex !important;
     flex-direction: column;
     align-items: center;
-    background-color: #000000;
+    position: relative;
+    background-color: #0000002f;
+    z-index: 1;
+    height: 1080px;
+    top: -1080px !important;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
 }
 
 .logo {
     width: 436px;
     height: 436px;
-    margin: 180px 0 30px 0;
+    margin: 90px auto 30px auto;
 }
 
 .title {
@@ -115,13 +131,11 @@ header .desc {
     background-color: #ffffff;
     border-radius: 10px;
     padding: 20px 30px;
-    color: #2b2c2b;
-    text-decoration: none;
+    color: #2b2c2b !important;
+    text-decoration: none !important;
     font-weight: bold !important;
     line-height: 24px;
-    margin: 0 0 90px 0;
-    display: flex;
-    flex-direction: row;
+    margin: 0 auto 90px auto;
 }
 
 .sch-button img {
@@ -140,6 +154,7 @@ section {
 
 .about {
     background-color: #ffffff;
+    display: flex !important;
 }
 
 .about .desc {
@@ -181,6 +196,7 @@ section {
 
 .services {
     background-image: url("../images/pattern.png");
+    display: flex !important;
 }
 
 .services .desc{
@@ -211,18 +227,21 @@ section {
 }
 
 .services .sch-button {
-    color: #ffffff;
-    background-color: #2b2c2b;
+    color: #ffffff !important;
+    background-color: #2b2c2b !important;
 }
 
 .services .sch-button img {
     -webkit-filter: invert(1);
     filter: invert(1);
+    margin: 0 0 0 15px !important;
 }
 
 .team {
     background-color: #2b2c2b;
     padding: 0 0 30px 0;
+    display: flex !important;
+    flex-direction: column;
 }
 
 .team .title {
@@ -251,15 +270,15 @@ section {
 }
 
 .team .team-card .title {
-    text-align: left;
+    text-align: left !important;
     color: #2b2c2b;
-    margin: 15px auto 15px 15px;
+    margin: 15px auto 15px 15px !important;
 }
 
 .team .team-card .desc {
-    text-align: left;
+    text-align: left !important;
     color: #999999;
-    margin: 0 auto 15px 15px;
+    margin: 0 auto 15px 15px !important;
 }
 
 .team .team-card img {
@@ -270,7 +289,7 @@ section {
 
 .contact {
     background-color: #ffffff;
-    display: flex;
+    display: flex !important;
     flex-direction: row;
 }
 
@@ -278,11 +297,11 @@ section {
     background-color: #2b2c2b;
     color: #ffffff;
     width: 640px;
-    height: 955px;
     min-width: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 0 0 90px 0;
 }
 
 .contact .social .social-card {
@@ -294,9 +313,10 @@ section {
 
 .contact .social .social-card .title {
     color: #ffffff;
-    text-align: left;
+    text-align: left !important;
     font-weight: bold !important;
     margin: 0;
+    line-height: 1.0;
 }
 
 .contact .social .social-card a {
@@ -336,15 +356,16 @@ section {
 }
 
 .contact .form-contact .title {
-    text-align: left;
+    text-align: left !important;
+    margin: 0px !important;
 }
 
 .contact .form-contact .sub {
-    text-align: left;
+    text-align: left !important;
 }
 
 .contact .form-contact .desc {
-    text-align: left;
+    text-align: left !important;
     margin: 15px 0 30px 0;
 }
 
