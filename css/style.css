@@ -1,6 +1,6 @@
 * {
     font-family: 'Quicksand', sans-serif;
-    font-size: 20px;
+    font-size: 20px !important;
 }
 
 body {
@@ -10,16 +10,17 @@ body {
 nav {
     width: 100%;
     background-color: #2b2c2b;
-    display: flex;
+    display: flex !important;
     position: fixed;
     box-shadow: 0px 0px 9px #00000029;
     justify-content: center;
+    z-index: 1;
 }
 
 .allivium {
     text-decoration: none;
     color: #ffffff;
-    font-weight: bold;
+    font-weight: bold !important;
     display: flex;
     flex-direction: row;
     margin: auto 0;
@@ -43,7 +44,7 @@ ul {
     flex-flow: row wrap;
     justify-content: flex-end;
     list-style: none;
-    margin: 0;
+    margin: 0 !important;
     width: 60%;
 }
 
@@ -55,7 +56,7 @@ li {
 li a {
     text-decoration: none;
     color: #ffffff;
-    font-weight: bold;
+    font-weight: bold !important;
 }
 
 .agendar {
@@ -66,7 +67,7 @@ li a {
 }
 
 header {
-    display: flex;
+    display: flex !important;
     flex-direction: column;
     align-items: center;
     background-color: #000000;
@@ -80,22 +81,23 @@ header {
 
 .title {
     color: #2b2c2b;
-    margin: 0;
-    font-size: 40px;
+    margin: 0 auto !important;
+    font-size: 40px !important;
+    font-weight: bold !important;
     max-width: 800px;
     text-align: center;
 }
 
 .sub {
     color: #999999;
-    font-weight: bold;
+    font-weight: bold !important;
     margin: 90px 0 0px 0;
     text-align: center;
 }
 
 .desc {
     color: #999999;
-    margin: 15px 0 60px 0;
+    margin: 15px auto 60px auto !important;
     max-width: 800px;
     text-align: center;
 }
@@ -115,7 +117,7 @@ header .desc {
     padding: 20px 30px;
     color: #2b2c2b;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: bold !important;
     line-height: 24px;
     margin: 0 0 90px 0;
     display: flex;
@@ -167,7 +169,7 @@ section {
 }
 
 .list-item .title {
-    font-size: 20px;
+    font-size: 20px !important;
     text-align: center;
     margin: 15px 0 0 0;
 }
@@ -178,7 +180,7 @@ section {
 }
 
 .services {
-    background-color: #f9f9f9;
+    background-image: url("../images/pattern.png");
 }
 
 .services .desc{
@@ -191,7 +193,7 @@ section {
     flex-wrap: wrap;
     justify-content: center;
     max-width: 80%;
-    margin: 0 0 60px 0;
+    margin: 0 auto 60px auto;
 }
 
 .services .svc-list .card {
@@ -293,15 +295,15 @@ section {
 .contact .social .social-card .title {
     color: #ffffff;
     text-align: left;
-    font-weight: bold;
+    font-weight: bold !important;
     margin: 0;
 }
 
 .contact .social .social-card a {
     color: #ffffff;
-    font-size: 40px;
+    font-size: 40px !important;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: bold !important;
 }
 
 .contact .social .social-card p {
@@ -354,7 +356,7 @@ section {
 
 .contact .form-contact form label {
     margin: 0;
-    font-weight: bold;
+    font-weight: bold !important;
     width: 100%;
 }
 
@@ -384,7 +386,7 @@ section {
 
 footer {
     background-color: #2b2c2b;
-    display: flex;
+    display: flex !important;
     flex-direction: row;
     color: #ffffff;
     justify-content: space-around;
@@ -397,7 +399,7 @@ footer .footer-desc {
 }
 
 footer .footer-desc h1 {
-    font-size: 40px;
+    font-size: 40px !important;
     margin: 0;
 }
 
@@ -419,7 +421,7 @@ footer div .footer-nav li {
 }
 
 footer div .footer-nav li a {
-    font-weight: normal;
+    font-weight: normal !important;
     padding: 0;
     margin: 0;
 }
