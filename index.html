@@ -11,7 +11,83 @@
 
     </head>
     <body>
-        <!-- Navigation -->
+         <!-- NAV FIXED -->
+         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+         
+         <!-- NAV FIXED -->
+         <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark navegacao">
+           <div class="container">
+             <a href="#" class="navbar-brand">
+               <img src="images/logo.png" height="70">  Allivium
+             </a>
+             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Menu Colapso">  
+                <span class="navbar-toggler-icon text-light"></span>
+              </button>
+         
+             <div id="menu" class="collapse navbar-collapse">
+               <ul class="navbar-nav ml-auto text-light nav-menu">
+                 <li class="nav-item">
+                   <a href="#about" class="nav-link text-light font-weight-bold">Sobre</a>
+                 </li>
+                 <li class="nav-item">
+                   <a href="#services" class="nav-link text-light font-weight-bold">Serviços</a>
+                 </li>
+                 <li class="nav-item">
+                   <a href="#team" class="nav-link text-light font-weight-bold">Profissionais</a>
+                 </li>
+                 <li class="nav-item">
+                   <a href="#contact" class="nav-link text-light font-weight-bold">Agendar</a>
+                 </li>
+               </ul>
+             </div>
+           </div>
+         </nav>
+<!--
+         Menu Bootstrap
+        
+         <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(Página atual)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Destaques</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Preços</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Desativado</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+
+
+          <div class="pos-f-t">
+            <div class="collapse" id="navbarToggleExternalContent">
+                <div class="bg-dark p-4">
+                <h5 class="text-white h4">Conteúdo expandido</h5>
+                <span class="text-muted">Expansível, atráves da marca no navbar.</span>
+                </div>
+            </div>
+            <nav class="navbar navbar-light" style="background-color: #2b2c2b">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            </nav>
+         </div>
+        -->
+        <!--
         <nav>
             <a class="nav-title" href="#header">
                 <img class="nav-logo" src="images/logo.png" alt="Allivium">
@@ -24,6 +100,7 @@
                 <li><a class="agendar" href="#contact">Agendar</a></li>
             </ul>
         </nav>
+        -->
 
         <!-- Start Carousel Bootstrap -->
         <div id="carousel" class="carousel slide" data-ride="carousel">
@@ -42,7 +119,7 @@
 
         <script>
             $('.carousel').carousel({
-                interval: 500
+                interval: 4000
             })
         </script>
         <!-- End Carousel Bootstrap -->
