@@ -2,8 +2,12 @@
     font-family: 'Quicksand', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
-    background-color: #000000 !important;
+    background-color: #2b2c2b !important;
     text-align: center !important;
 }
 
@@ -313,9 +317,8 @@ header .desc {
 footer {
     background-color: #2b2c2b;
     display: flex !important;
-    flex-direction: column;
+    flex-direction: row;
     color: #ffffff;
-    justify-content: space-around;
     padding: 90px 0 90px 0;
 }
 
@@ -331,8 +334,8 @@ footer {
 
 .footer-nav li {
     list-style-type: none !important;
-    text-align: center;
-    margin: 7.5px 0 !important;
+    text-align: left !important;
+    margin: 15px 0 !important;
     padding: 0 !important;
 }
 
@@ -476,7 +479,12 @@ footer {
     .footer-nav li {
         list-style-type: none !important;
         text-align: left;
+}
 
+.rights {
+    text-align: center;
+    color: #ffffff;
+    background-color: #2b2c2b;
 }
 
 @media screen and (min-width: 1280px) {
