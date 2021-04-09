@@ -1,0 +1,524 @@
+* {
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    background-color: #000000 !important;
+    text-align: center !important;
+}
+
+/* Global title */
+.title {
+    color: #2b2c2b;
+    margin: 0 auto !important;
+    font-size: 32px !important;
+    font-weight: bold !important;
+    text-align: left !important;
+    max-width: 80%;
+}
+
+/* Global paragraph */
+.desc {
+    color: #999999;
+    margin: 15px auto !important;
+    text-align: left !important;
+    max-width: 80%;
+}
+
+/* Global subtitle */
+.sub {
+    color: #999999;
+    margin: 15px auto !important;
+    text-align: left !important;
+    max-width: 80%;
+    font-size: 20px !important;
+    margin: 0 auto !important;
+    font-weight: bold !important;
+}
+
+/* Navigation */
+.navegacao {
+    background-color: #2b2c2b !important;
+    box-shadow: 1px 2px #00000048 !important;
+    color: #ffffff !important;
+    text-align: center !important;
+}
+
+.nav-menu > li {
+    padding: 0 0 0 30px !important;
+}
+
+/* Carousel */
+.carousel {
+    width: 100% !important;
+    z-index: 0 !important;
+    position: relative !important;
+    display: none;
+}
+
+/* Header */
+header {
+    top: 0;
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    width: 100%;
+    position: initial;
+    display: flex;
+    justify-content: center;
+    background-image: url("https://mocah.org/uploads/posts/4563409-knight-warrior-video-games-dark-souls-iii-artwork-sword-armor-dark-souls-from-software-death-fire-digital-art.jpg");
+    background-size: auto 100%;
+}
+
+.logo {
+    width: 436px;
+    height: 436px;
+    display: none;
+}
+
+header .title {
+    color: #ffffff !important;
+}
+
+header .desc {
+    color:#999999;
+}
+
+.sch-button {
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 0px;
+    padding: 20px 30px;
+    color: #2b2c2b !important;
+    text-decoration: none !important;
+    font-weight: bold !important;
+    cursor: pointer;
+    max-width: 60%;
+    margin: 15px auto;
+}
+
+.sch-button img {
+    width: 24px;
+    height: 24px;
+    padding: 0;
+    margin-left: 15px;
+    display: none;
+}
+
+/* About */
+.about {
+    background-color: #ffffff;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.about-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-item {
+    padding: 30px;
+    margin: 0 auto;
+}
+
+.about-item img {
+    width: 76px;
+    height: 76px;
+    margin: 0 auto;
+}
+
+.about-item .sub {
+    color: #2b2c2b;
+    margin-top: 15px !important;
+    margin-bottom: 0 !important;
+    text-align: center !important;
+}
+
+.about-item .desc {
+    text-align: center !important;
+}
+
+/* Services */
+.services {
+    background-image: url("../images/pattern.png");
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.service-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.service-item {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 9px #00000029;
+    border-radius: 10px;
+    padding: 30px;
+    width: 80%;
+    margin: 15px auto;
+}
+
+.service-list .service-item p {
+    margin: 0px !important;
+    font-size: 20px;
+}
+
+.services .sch-button {
+    background-color: #2b2c2b;
+    color: #ffffff !important;
+}
+
+.services .sch-button img {
+    -webkit-filter: invert(1);
+    filter: invert(1);
+}
+
+/* Team */
+.team {
+    background-color: #2b2c2b;
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+
+.team .title {
+    color: #ffffff;
+}
+
+.team-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.team-item {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 9px #00000029;
+    border-radius: 10px;
+    width: 80%;
+    margin: 15px auto;
+    padding-top: 15px;
+}
+
+.team-item .title {
+    text-align: center !important;
+    color: #2b2c2b;
+}
+
+.team-item .desc {
+    text-align: center !important;
+}
+
+.team-item img {
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+}
+
+/* Contact */
+.contact {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+/* Social */
+.contact-social {
+    background-color: #2b2c2b;
+    display: flex;
+    flex-direction: column;
+}
+
+.social-item {
+    width: 100%;
+    text-align: center !important;
+    padding: 10px;
+    margin: 15px 0 !important;
+}
+
+.social-item img {
+    height: 48px;
+    width: 48px;
+    -webkit-filter: invert(1);
+    filter: invert(1);
+}
+
+.social-item a {
+    font-size: 32px !important;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.social-item p {
+    color: #999999;
+    margin: 15px 0 0 0 !important;
+}
+
+.social-item a img {
+    height: 12px;
+    width: 12px;
+    -webkit-filter: invert(1);
+    filter: invert(1);
+    margin-left: 15px;
+}
+
+/* Form */
+.contact-form {
+    background-color: #ffffff;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form form label {
+    margin: 0 auto;
+    font-weight: bold !important;
+    width: 80%;
+    text-align: left;
+}
+
+.contact-form form input {
+    border: 1px solid #CCCCCC;
+    border-radius: 10px;
+    width: 80%;
+    padding: 15px;
+    margin: 5px auto 15px auto;
+}
+
+.contact-form form textarea {
+    border: 1px solid #CCCCCC;
+    border-radius: 10px;
+    width: 80%;
+    padding: 15px;
+    margin: 20px auto;
+}
+
+.contact-form form .sbm-button {
+    width: 80%;
+    background-color: #2b2c2b;
+    color: #ffffff;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* footer */
+footer {
+    background-color: #2b2c2b;
+    display: flex !important;
+    flex-direction: column;
+    color: #ffffff;
+    justify-content: space-around;
+    padding: 90px 0 90px 0;
+}
+
+.footer-desc {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.footer-nav {
+    padding: 0 !important;
+    margin: 0;
+}
+
+.footer-nav li {
+    list-style-type: none !important;
+    text-align: center;
+    margin: 7.5px 0 !important;
+    padding: 0 !important;
+}
+
+.footer-nav li a {
+    font-weight: normal !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    color: #ffffff;
+}
+
+/* Magia abaixo, cuidado! */
+@media screen and (min-width: 768px) {
+
+    /* Global title */
+    .title {
+        max-width: 600px;
+        text-align: center !important;
+    }
+
+    /* Global paragraph */
+    .desc {
+        max-width: 600px;
+        text-align: center !important;
+    }
+
+    /* Global subtitle */
+    .sub {
+        max-width: 600px;
+        text-align: center !important;
+    }
+
+    /* Carousel */
+    .carousel {
+        display: flex;
+        height: 800px;
+    }
+
+    /* Header */
+    header {
+        top: 15%;
+        height: 1px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        position: absolute;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .sch-button img {
+        display: inline;
+    }
+
+    /* About */
+    .about-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .about-item {
+        min-width: 30%;
+        width: 600px;
+    }
+
+    /* Services */
+    .service-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .service-item {
+        width: 100px;
+        min-width: 30%;
+        margin: 15px;
+    }
+
+    /* team */
+    .team-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 0 10%;
+    }
+
+    .team-item {
+        width: 400px;
+        margin: 15px;
+    }
+
+    /* Contact */
+
+    .contact-social {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .social-item {
+        min-width: 300px;
+        width: 25%;
+        margin: auto 0;
+    }
+
+    .contact-form form label {
+        max-width: 600px;
+    }
+    
+    .contact-form form input {
+        max-width: 600px;
+    }
+    
+    .contact-form form textarea {
+        max-width: 600px;
+    }
+    
+    .contact-form form .sbm-button {
+        max-width: 600px;
+    }
+
+    /* Footer */
+    footer {
+        flex-direction: row;
+    }
+
+    .footer-desc {
+        width: 30%;
+        min-width: 20%;
+        margin: 0;
+    }
+
+    footer .footer-desc h1 {
+        margin: 0;
+        text-align: left;
+    }
+    
+    footer .footer-desc p {
+        margin: 0;
+        text-align: left;
+    }
+
+    .footer-nav li {
+        list-style-type: none !important;
+        text-align: left;
+
+}
+
+@media screen and (min-width: 1280px) {
+
+    /* Header */
+    header {
+        top: 0%;
+    }
+
+    .logo {
+        display: inline;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+
+    /* Header */
+    header {
+        top: 5%;
+    }
+
+    .logo {
+        display: inline;
+    }
+
+    .contact {
+        display: flex !important;
+        flex-direction: row-reverse !important;
+        flex-wrap: nowrap;
+    }
+
+    .contact-social {
+        width: 20%;
+        flex-direction: column;
+    }
+
+    .social-item {
+        margin: 15px auto !important;
+    }
+
+    .contact-form {
+        width: 80%;
+    }
+}
