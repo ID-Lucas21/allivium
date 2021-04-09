@@ -309,6 +309,40 @@ header .desc {
     margin: 0 auto;
 }
 
+/* footer */
+footer {
+    background-color: #2b2c2b;
+    display: flex !important;
+    flex-direction: column;
+    color: #ffffff;
+    justify-content: space-around;
+    padding: 90px 0 90px 0;
+}
+
+.footer-desc {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.footer-nav {
+    padding: 0 !important;
+    margin: 0;
+}
+
+.footer-nav li {
+    list-style-type: none !important;
+    text-align: center;
+    margin: 7.5px 0 !important;
+    padding: 0 !important;
+}
+
+.footer-nav li a {
+    font-weight: normal !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    color: #ffffff;
+}
+
 /* Magia abaixo, cuidado! */
 @media screen and (min-width: 768px) {
 
@@ -417,6 +451,31 @@ header .desc {
     .contact-form form .sbm-button {
         max-width: 600px;
     }
+
+    /* Footer */
+    footer {
+        flex-direction: row;
+    }
+
+    .footer-desc {
+        width: 30%;
+        min-width: 20%;
+        margin: 0;
+    }
+
+    footer .footer-desc h1 {
+        margin: 0;
+        text-align: left;
+    }
+    
+    footer .footer-desc p {
+        margin: 0;
+        text-align: left;
+    }
+
+    .footer-nav li {
+        list-style-type: none !important;
+        text-align: left;
 
 }
 
