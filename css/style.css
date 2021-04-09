@@ -219,6 +219,96 @@ header .desc {
     border-radius: 0 0 10px 10px;
 }
 
+/* Contact */
+.contact {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+/* Social */
+.contact-social {
+    background-color: #2b2c2b;
+    display: flex;
+    flex-direction: column;
+}
+
+.social-item {
+    width: 100%;
+    text-align: center !important;
+    padding: 10px;
+    margin: 15px 0 !important;
+}
+
+.social-item img {
+    height: 48px;
+    width: 48px;
+    -webkit-filter: invert(1);
+    filter: invert(1);
+}
+
+.social-item a {
+    font-size: 32px !important;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.social-item p {
+    color: #999999;
+    margin: 15px 0 0 0 !important;
+}
+
+.social-item a img {
+    height: 12px;
+    width: 12px;
+    -webkit-filter: invert(1);
+    filter: invert(1);
+    margin-left: 15px;
+}
+
+/* Form */
+.contact-form {
+    background-color: #ffffff;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form form label {
+    margin: 0 auto;
+    font-weight: bold !important;
+    width: 80%;
+    text-align: left;
+}
+
+.contact-form form input {
+    border: 1px solid #CCCCCC;
+    border-radius: 10px;
+    width: 80%;
+    padding: 15px;
+    margin: 5px auto 15px auto;
+}
+
+.contact-form form textarea {
+    border: 1px solid #CCCCCC;
+    border-radius: 10px;
+    width: 80%;
+    padding: 15px;
+    margin: 20px auto;
+}
+
+.contact-form form .sbm-button {
+    width: 80%;
+    background-color: #2b2c2b;
+    color: #ffffff;
+    text-align: center;
+    margin: 0 auto;
+}
+
 /* Magia abaixo, cuidado! */
 @media screen and (min-width: 768px) {
 
@@ -298,6 +388,36 @@ header .desc {
         margin: 15px;
     }
 
+    /* Contact */
+
+    .contact-social {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .social-item {
+        min-width: 300px;
+        width: 25%;
+        margin: auto 0;
+    }
+
+    .contact-form form label {
+        max-width: 600px;
+    }
+    
+    .contact-form form input {
+        max-width: 600px;
+    }
+    
+    .contact-form form textarea {
+        max-width: 600px;
+    }
+    
+    .contact-form form .sbm-button {
+        max-width: 600px;
+    }
+
 }
 
 @media screen and (min-width: 1280px) {
@@ -313,14 +433,33 @@ header .desc {
     }
 }
 
-@media screen and (min-width: 1980px) {
+@media screen and (min-width: 1920px) {
 
     /* Header */
     header {
-        top: 20%;
+        top: 5%;
     }
 
     .logo {
         display: inline;
+    }
+
+    .contact {
+        display: flex !important;
+        flex-direction: row-reverse !important;
+        flex-wrap: nowrap;
+    }
+
+    .contact-social {
+        width: 20%;
+        flex-direction: column;
+    }
+
+    .social-item {
+        margin: 15px auto !important;
+    }
+
+    .contact-form {
+        width: 80%;
     }
 }
