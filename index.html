@@ -13,7 +13,6 @@
     </head>
 
     <body>
-
         <!-- Navigation -->
         <nav class="navbar navbar-expand-lg fixed-top navbar-dark navegacao">
             <div class="container">
@@ -57,11 +56,6 @@
             </div>
             </div>
         </div>
-        <script>
-            $('.carousel').carousel({
-                interval: 4000
-            })
-        </script>
 
         <!-- Header -->
         <header id="header">
@@ -150,6 +144,7 @@
 
         <!-- Team -->
         <section class="team" id="team">
+            <div class="bg"></div>
             <h2 class="sub">PROFISSIONAIS</h2>
             <h1 class="title">Nossa equipe de profissionais</h1>
             <p class="desc">Equipe de profissionais altamente treinados e qualificados em tratamentos estéticos faciais e corporais.</p>
@@ -166,9 +161,20 @@
                     <p class="desc">Massoterapeuta</p>
                     <img src="images/weeb.png" alt="Ingrid Borba">
                 </div>
-            </div>
-        </section>
 
+                <div class="team-item">
+                    <h1 class="title">Ingrid Borba</h1>
+                    <p class="desc">Massoterapeuta</p>
+                    <img src="images/weeb.png" alt="Ingrid Borba">
+                </div>
+
+                <div class="team-item">
+                    <h1 class="title">Ingrid Borba</h1>
+                    <p class="desc">Massoterapeuta</p>
+                    <img src="images/weeb.png" alt="Ingrid Borba">
+                </div>
+        </section>
+        
         <!-- Contact -->
         <section class="contact" id="contact">
 
@@ -186,7 +192,7 @@
                     <input type="email" id="email" name="email" placeholder="email@endereco.com"/>
 
                     <label for="tel">Número de Celular: </label>
-                    <input type="tel" id="tel" name="phone" placeholder="+00 00000-0000"/>
+                    <input type="text" id='telefone' name="phone" placeholder="+00 00000-0000"/>
 
                     <label for="message">Sua mensagem: </label>
                     <textarea id="message" name="message" cols="30" rows="5" placeholder="Insira sua mensagem aqui..."></textarea>
@@ -254,15 +260,22 @@
         </footer>
 
         <div class="rights"><p>© 2020 Allivium. Todos os direitos reservados</p></div>
-
-        <!-- Nav -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    </body>
 
         <!-- Slide -->
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    </body>
+
+    <script>
+        $('#carousel').carousel({
+            interval: 100
+        })
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.4.0.js"></script>
+    <script src="js/jquery.mask.js"></script>
+    <script>
+        $('#telefone').mask('(00) 00000-0000');
+    </script>
 </html>
