@@ -7,7 +7,7 @@ html {
 }
 
 body {
-    background-color: #2b2c2b !important;
+    background-color: #1b1b1b !important;
     text-align: center !important;
 }
 
@@ -48,7 +48,7 @@ a:hover {
 /* Navigation */
 .navegacao {
     background-color: #2b2c2b !important;
-    box-shadow: 1px 2px #00000048 !important;
+    box-shadow: 1px 2px #c4c4c4 !important;
     color: #ffffff !important;
     text-align: center !important;
 }
@@ -67,7 +67,7 @@ a:hover {
 
 .filter {
     background-color: black;
-    opacity: 0.1;
+    opacity: 0.3;
     z-index: 1;
 }
 
@@ -78,8 +78,8 @@ a:hover {
     height: 60px;
     bottom: 20px;
     right: 20px;
-    background-color: #ffb100;
-    color: #2b2c2b;
+    background-image: url("../images/btn-whats.png");
+    color: #ffffff;
     border-radius: 50px;
     text-align: center;
     font-size: 30px;
@@ -137,7 +137,7 @@ header .desc {
 
 /* About */
 .about {
-    background-color: #ffffff;
+    background-image: url("../images/pattern2.png");
     padding-top: 60px;
     padding-bottom: 60px;
 }
@@ -168,6 +168,23 @@ header .desc {
 
 .about-item .desc {
     text-align: center !important;
+}
+
+/* Divisória */
+.partition {
+    background-image: url("../images/section.png");
+    width: 100%;
+    height: 15px;
+    position: relative;
+    top: -60px;
+}
+
+.partition2 {
+    background-image: url("../images/section2.png");
+    width: 100%;
+    height: 15px;
+    position: relative;
+    top: -60px;
 }
 
 /* Services */
@@ -275,18 +292,18 @@ header .desc {
     margin: 15px 0 !important;
 }
 
-.social-item img {
-    height: 48px;
-    width: 48px;
+.social-img {
+    height: 32px !important;
+    width: 32px !important;
     -webkit-filter: invert(1);
     filter: invert(1);
-    margin: 0 auto;
+    margin: auto 15px 15px 0 !important;
 }
 
 .social-item a {
     font-size: 32px !important;
     font-weight: bold;
-    margin: 15px 0 0 0;
+    margin: auto 0;
     color: #ffffff;
 }
 
@@ -369,7 +386,7 @@ footer {
 
 .footer-nav {
     padding: 0 !important;
-    margin: 30px 30px;
+    margin: 0 30px 30px 30px;
     display: flex;
     flex-direction: column;
 }
@@ -467,7 +484,7 @@ footer {
     }
 
     .team-item {
-        width: 400px;
+        width: 300px;
         margin: 15px;
     }
 
@@ -563,7 +580,7 @@ footer {
 .rights {
     text-align: center;
     color: #ffffff;
-    background-color: #2b2c2b;
+    margin-top: 15px;
 }
 
 @media screen and (min-width: 1280px) {
