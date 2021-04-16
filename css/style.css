@@ -228,7 +228,7 @@ header .desc {
 
 /* Team */
 .team {
-    background-color: #2b2c2b;
+    background-image: url("../images/pattern3.png");
     padding-bottom: 60px;
     padding-top: 60px;
     z-index: 5;
